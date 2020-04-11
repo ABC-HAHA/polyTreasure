@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/tarbar/task/task",
+    "pages/tarbar/chat/chat",
+    "pages/chat/chat",
+    "pages/tarbar/redpacket/redpacket",
+    "pages/tarbar/rank/rank",
+    "pages/tarbar/mine/mine",
+    "components/loading/loading",
+    "components/h-form-alert/h-form-alert",
+    "pages/help/help",
+    "pages/help/leadDetail/leadDetail",
+    "pages/help/loginDetail/loginDetail",
+    "pages/help/getDetail/getDetail",
+    "pages/help/infoDetail/infoDetail",
+    "pages/help/getMoney/getMoney",
+    "pages/task/tuwenPromoting/detail/detail",
+    "pages/task/lianjiePromoting/detail/detail",
+    "pages/task/shipinPromoting/detail/detail",
+    "components/uni-swiper-dot/uni-swiper-dot",
+    "pages/mine/login",
+    "pages/mine/register",
+    "pages/mine/forgetPwd",
+    "pages/mine/briefIntroduction",
+    "pages/mine/alipay",
+    "pages/mine/mobileNumber",
+    "pages/mine/invitationCode",
+    "pages/mine/backNumber",
+    "pages/mine/auditPage",
+    "pages/mine/personalPage",
+    "pages/mine/myTeam",
+    "pages/mine/setting",
+    "pages/mine/myRecord",
+    "pages/mine/withdrawal",
+    "pages/mine/inviteTeam",
+    "pages/mine/myTaskList",
+    "pages/mine/rule",
+    "pages/mine/news"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "rgba(125,125,125,1)",
+    "selectedColor": "#404040",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/tarbar/task/task",
+        "iconPath": "static/renwu.png",
+        "selectedIconPath": "static/renwu-actived.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/tarbar/chat/chat",
+        "iconPath": "static/liaotian.png",
+        "selectedIconPath": "static/liaotian-actived.png",
+        "text": "聊天"
+      },
+      {
+        "pagePath": "pages/tarbar/rank/rank",
+        "iconPath": "static/paihang.png",
+        "selectedIconPath": "static/paihang-actived.png",
+        "text": "排行"
+      },
+      {
+        "pagePath": "pages/tarbar/mine/mine",
+        "iconPath": "static/wode.png",
+        "selectedIconPath": "static/wodeactived.png",
+        "text": "我的"
+      }
+    ],
+    "midButton": {
+      "width": "63px",
+      "height": "120px",
+      "iconPath": "static/redPack.png",
+      "iconWidth": "55px"
+    }
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "聚乐宝",
+  "compilerVersion": "2.6.5",
+  "usingComponents": {
+    "md5": "/js_sdk/js-md5/build/md5.min",
+    "j-i-m": "/js_sdk/wxmp-jiguang/jmessage-wxapplet-sdk-1.4.0/jmessage-wxapplet-sdk-1.4.0.min",
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

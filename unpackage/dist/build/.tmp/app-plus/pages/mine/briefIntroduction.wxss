@@ -1,0 +1,43 @@
+.introduction.data-v-2e55e49a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.introduction .no_data_block.data-v-2e55e49a {
+  width: 750rpx;
+  text-align: center;
+  margin-top: 400rpx;
+}
+.introduction .no_data_block .no_data.data-v-2e55e49a {
+  width: 464rpx;
+  height: 298rpx;
+}
+.introduction .no_data_block > view.data-v-2e55e49a {
+  font-size: 31rpx;
+  color: #686868;
+}
+.logo.data-v-2e55e49a {
+  width: 198rpx;
+  height: 198rpx;
+  margin-top: 80rpx;
+}
+.box.data-v-2e55e49a {
+  padding: 10rpx 0;
+  width: 700rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 60rpx;
+}
+

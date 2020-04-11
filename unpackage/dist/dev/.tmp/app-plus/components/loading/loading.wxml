@@ -1,0 +1,1 @@
+<block wx:if="{{showFalg}}"><view class="uni-loadmore data-v-7f807cbc"><block wx:if="{{loadingType===2}}"><view class="data-v-7f807cbc"></view></block><text class="data-v-7f807cbc">{{loadingText[loadingType]}}</text></view></block>

@@ -1,0 +1,46 @@
+page {
+  background-color: #ee4329;
+}
+.invite_page {
+  width: 750rpx;
+}
+.invite_page .invite-bg {
+  width: 750rpx;
+  height: 1305rpx;
+  position: relative;
+}
+.invite_page .invite_butt {
+  position: fixed;
+  width: 750rpx;
+  text-align: center;
+  bottom: 20rpx;
+}
+.invite_page .invite_butt > image {
+  width: 400rpx;
+  height: 75rpx;
+}
+.invite_page .scroll-rule {
+  position: absolute;
+  border-radius: 30rpx;
+  width: 710rpx;
+  top: 430rpx;
+  left: 20rpx;
+  right: 20rpx;
+  margin: 0 auto;
+  background-color: #fdf7eb;
+  height: 772rpx;
+}
+.invite_page .scroll-rule .rule-head {
+  width: 320rpx;
+  height: 31rpx;
+  margin: 30rpx 200rpx;
+}
+.invite_page .scroll-rule .rule-article {
+  padding: 10rpx 30rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 40rpx;
+}
+

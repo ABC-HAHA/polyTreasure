@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "cmd-progress": "/components/cmd-progress/cmd-progress",
+    "wlp-swiperb-banner": "/components/wlp-swiper-banner/wlp-swiper-banner",
+    "refresh": "/components/refresh",
+    "nav-tab": "/components/navTab",
+    "face-content": "/components/faceContent/faceContent",
+    "unimask": "/pages/mine/uni-popup"
+  }
+}

@@ -1,0 +1,30 @@
+.container.data-v-7065cbc8 {
+  padding: 30rpx;
+}
+.top.data-v-7065cbc8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin: 100rpx;
+}
+.top image.data-v-7065cbc8 {
+  width: 139rpx;
+  height: 139rpx;
+}
+.title.data-v-7065cbc8 {
+  font-size: 35rpx;
+  font-weight: bold;
+  margin: 30rpx 0;
+}
+.tt.data-v-7065cbc8 {
+  font-size: 35rpx;
+  font-weight: 600;
+  margin: 30rpx 0;
+}
+.paragraph.data-v-7065cbc8 {
+  font-size: 30rpx;
+}
+

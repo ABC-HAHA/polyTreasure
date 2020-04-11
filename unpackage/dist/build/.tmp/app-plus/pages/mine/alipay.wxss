@@ -1,0 +1,21 @@
+.logo.data-v-082c50be {
+  width: 126rpx;
+  height: 126rpx;
+}
+.add-aliply-block.data-v-082c50be {
+  margin-top: 50rpx;
+  width: 560rpx;
+}
+.add-aliply-block .aliply-title.data-v-082c50be {
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #9d9d9d;
+  line-height: 24rpx;
+}
+.add-aliply-block .add-aliply.data-v-082c50be {
+  margin-top: 20rpx;
+  width: 116rpx;
+  height: 116rpx;
+}
+

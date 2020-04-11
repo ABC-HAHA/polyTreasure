@@ -1,0 +1,66 @@
+.auditPage.data-v-cc38cf82 {
+  width: 750rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.auditPage .audit_specification.data-v-cc38cf82 {
+  width: 705rpx;
+  margin: 0 auto;
+  padding: 30rpx 0;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 40rpx;
+}
+.auditPage .audit-pages-block.data-v-cc38cf82 {
+  word-wrap: nowrap;
+}
+.auditPage .audit-pages-block > image.data-v-cc38cf82 {
+  display: inline-block;
+  width: 358rpx;
+  height: 568rpx;
+}
+.auditPage .explain.data-v-cc38cf82 {
+  height: 20rpx;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #9d9d9d;
+  margin: 30rpx 0;
+}
+.auditPage .add-block.data-v-cc38cf82 {
+  width: 750rpx;
+  word-wrap: nowrap;
+}
+.auditPage .add-block > image.data-v-cc38cf82 {
+  display: inline-block;
+  width: 116rpx;
+  height: 116rpx;
+  margin-left: 50rpx;
+}
+.auditPage .commit.data-v-cc38cf82 {
+  margin: 30rpx 0;
+  width: 662rpx;
+  height: 88rpx;
+  background: #da3a3a;
+  text-align: center;
+  border-radius: 44rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 88rpx;
+}
+

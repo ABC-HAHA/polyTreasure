@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "赚红包",
+  "navigationBarBackgroundColor": "#FF7924",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "d-t": "/components/dao-time/dao-time"
+  }
+}
