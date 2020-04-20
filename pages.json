@@ -256,7 +256,7 @@
 	},
 	"tabBar": {
 		"color": "rgba(125,125,125,1)",
-		"selectedColor": "#404040",
+		"selectedColor": "#ff0011",
 		"backgroundColor": "#F8F8F8",
 		"list": [{
 				"pagePath": "pages/tarbar/task/task",
@@ -284,10 +284,9 @@
 			}
 		],
 		"midButton": {
-			"width": "63px",
-			"height": "120px",
-			"iconPath": "static/redPack.png",
-			"iconWidth": "55px"
+			"width": "45px",
+			"height": "65px",
+			"backgroundImage": "static/redPack.png"
 		}
 	}
 }

@@ -6058,7 +6058,7 @@ var render = function() {
               _c("v-uni-image", {
                 staticClass: _vm._$g(16, "sc"),
                 attrs: {
-                  src: "/static/copy_share.png",
+                  src: "/static/copy_pinglun.png",
                   mode: "widthFix",
                   _i: 16
                 },
@@ -6071,7 +6071,7 @@ var render = function() {
               _c("v-uni-image", {
                 staticClass: _vm._$g(17, "sc"),
                 attrs: {
-                  src: "/static/copy_pinglun.png",
+                  src: "/static/copy_share.png",
                   mode: "widthFix",
                   _i: 17
                 },
@@ -7187,7 +7187,7 @@ var render = function() {
               _c("v-uni-image", {
                 staticClass: _vm._$g(10, "sc"),
                 attrs: {
-                  src: "/static/copy_share.png",
+                  src: "/static/copy_pinglun.png",
                   mode: "widthFix",
                   _i: 10
                 },
@@ -7200,7 +7200,7 @@ var render = function() {
               _c("v-uni-image", {
                 staticClass: _vm._$g(11, "sc"),
                 attrs: {
-                  src: "/static/copy_pinglun.png",
+                  src: "/static/copy_share.png",
                   mode: "widthFix",
                   _i: 11
                 },
@@ -8088,7 +8088,7 @@ var render = function() {
               _c("v-uni-image", {
                 staticClass: _vm._$g(12, "sc"),
                 attrs: {
-                  src: "/static/copy_share.png",
+                  src: "/static/copy_pinglun.png",
                   mode: "widthFix",
                   _i: 12
                 },
@@ -8101,7 +8101,7 @@ var render = function() {
               _c("v-uni-image", {
                 staticClass: _vm._$g(13, "sc"),
                 attrs: {
-                  src: "/static/copy_pinglun.png",
+                  src: "/static/copy_share.png",
                   mode: "widthFix",
                   _i: 13
                 },
@@ -11741,8 +11741,8 @@ var render = function() {
           staticClass: _vm._$g(5, "sc"),
           attrs: { _i: 5 },
           on: {
-            "~tap": function($event) {
-              return _vm.$handleViewEvent($event, { once: true })
+            click: function($event) {
+              return _vm.$handleViewEvent($event)
             }
           }
         },
@@ -11900,7 +11900,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! @/static/update_img.
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, ".setting_page[data-v-2b3832b1] {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  margin-top: 20upx;\n}\n.setting_page .other_list[data-v-2b3832b1] {\n  width: 750upx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  margin-bottom: 10upx;\n  line-height: 100upx;\n  background-color: #ffffff;\n}\n.setting_page .other_list .mine_other_list_icon[data-v-2b3832b1] {\n  margin-left: 30upx;\n  width: 36upx;\n  height: 36upx;\n}\n.setting_page .other_list .mine_other_list_image[data-v-2b3832b1] {\n  width: 17upx;\n  height: 29upx;\n}\n.setting_page .other_list .mine_other_list_content[data-v-2b3832b1] {\n  width: 600upx;\n  font-size: 40upx;\n  color: #282828;\n  margin-left: 30upx;\n}\n.setting_page .other_list .mine_other_list_one[data-v-2b3832b1] {\n  width: 350upx;\n  font-size: 40upx;\n  color: #282828;\n  margin-left: 30upx;\n}\n.setting_page .other_list .mine_other_list_two[data-v-2b3832b1] {\n  width: 215upx;\n  font-size: 40upx;\n  color: #282828;\n  margin-left: 30upx;\n}\n.setting_page .block_btn[data-v-2b3832b1] {\n  width: 504upx;\n  height: 82upx;\n  line-height: 82upx;\n  margin-top: 50upx;\n  font-size: 30upx;\n  color: #ffffff;\n  text-align: center;\n  background: #E4444C;\n  border-radius: 40upx;\n}\n.active[data-v-2b3832b1] {\n  border-radius: 50%;\n  background-color: #dd524d;\n}\n.shareGroup[data-v-2b3832b1] {\n  width: 750upx;\n  height: 480upx;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% 100%;\n  margin-top: 150upx;\n  margin-left: 30upx;\n  color: #007aff;\n  position: relative;\n}\n.shareGroup .shareGroup_pro[data-v-2b3832b1] {\n  position: absolute;\n  top: 330upx;\n  left: 10%;\n  width: 600upx;\n}\n", ""]);
+exports.push([module.i, ".setting_page[data-v-2b3832b1] {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  margin-top: 20upx;\n}\n.setting_page .other_list[data-v-2b3832b1] {\n  width: 750upx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  margin-bottom: 10upx;\n  line-height: 100upx;\n  background-color: #ffffff;\n}\n.setting_page .other_list .mine_other_list_icon[data-v-2b3832b1] {\n  margin-left: 30upx;\n  width: 36upx;\n  height: 36upx;\n}\n.setting_page .other_list .mine_other_list_image[data-v-2b3832b1] {\n  width: 17upx;\n  height: 29upx;\n}\n.setting_page .other_list .mine_other_list_content[data-v-2b3832b1] {\n  width: 600upx;\n  font-size: 40upx;\n  color: #282828;\n  margin-left: 30upx;\n}\n.setting_page .other_list .mine_other_list_one[data-v-2b3832b1] {\n  width: 350upx;\n  font-size: 40upx;\n  color: #282828;\n  margin-left: 30upx;\n}\n.setting_page .other_list .mine_other_list_two[data-v-2b3832b1] {\n  width: 215upx;\n  font-size: 40upx;\n  color: #282828;\n  margin-left: 30upx;\n}\n.setting_page .block_btn[data-v-2b3832b1] {\n  width: 504upx;\n  height: 82upx;\n  line-height: 82upx;\n  margin-top: 50upx;\n  font-size: 30upx;\n  color: #ffffff;\n  text-align: center;\n  background: #e4444c;\n  border-radius: 40upx;\n}\n.active[data-v-2b3832b1] {\n  border-radius: 50%;\n  background-color: #dd524d;\n}\n.shareGroup[data-v-2b3832b1] {\n  width: 750upx;\n  height: 480upx;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: 100% 100%;\n  margin-top: 150upx;\n  margin-left: 30upx;\n  color: #007aff;\n  position: relative;\n}\n.shareGroup .shareGroup_pro[data-v-2b3832b1] {\n  position: absolute;\n  top: 330upx;\n  left: 10%;\n  width: 600upx;\n}\n", ""]);
 // Exports
 module.exports = exports;
 

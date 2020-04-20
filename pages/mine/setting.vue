@@ -5,7 +5,7 @@
 			<view class="mine_other_list_content">关于网赚</view>
 			<image class="mine_other_list_image" src="../../static/jiantou.png"></image>
 		</view>
-		<view class="other_list" @tap.once="update()">
+		<view class="other_list" @tap="update()">
 			<image class="mine_other_list_icon" :class="flag ? 'active' : ''" src="../../static/banbengengxin.png"></image>
 			<view class="mine_other_list_one">更新版本</view>
 			<view class="mine_other_list_two">{{ version }}</view>
@@ -534,7 +534,7 @@ export default {
 	computed: {
 		// #ifdef APP-PLUS
 		version: function() {
-			return plus.storage.getItem('app-id') ? plus.storage.getItem('app-id') : '1.0.5';
+			return plus.storage.getItem('app-id') ? plus.storage.getItem('app-id') : '1.0.7';
 		},
 		// #endif
 		pro: function() {
@@ -598,7 +598,7 @@ export default {
 		font-size: 30upx;
 		color: rgba(255, 255, 255, 1);
 		text-align: center;
-		background: #E4444C;
+		background: #e4444c;
 		border-radius: 40upx;
 	}
 }

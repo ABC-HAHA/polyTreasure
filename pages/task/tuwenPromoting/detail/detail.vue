@@ -7,9 +7,9 @@
 				</view>
 			</transition>
 			<view class="copy_share">分享语</view>
-			<view class="tuwen_detail_title" @tap="goHeadAd(detailData['url'])" v-html="detailData['comments']"></view>
-			<view class="copy_share">评论语</view>
 			<view class="tuwen_detail_title" @tap="goHeadAd(detailData['url'])" v-html="detailData['esaDescribe1']"></view>
+			<view class="copy_share">评论语</view>
+			<view class="tuwen_detail_title" @tap="goHeadAd(detailData['url'])" v-html="detailData['comments']"></view>
 			<view v-if="manyShow" class="tuwen_detail_pic">
 				<image :src="item.linkComment" mode="" @tap="showSwiper" v-for="(item, index) in detailData['imgList'][0]" :key="index"></image>
 			</view>
@@ -23,8 +23,8 @@
 				<button class="tuwen_detail_share_btn_save" @tap="savePic">保存图片</button>
 			</view> -->
 			<view class="tuwen_detail_share_btn2">
-				<image class="copy_share_btn" src="/static/copy_share.png" mode="widthFix" @tap="copy"></image>
 				<image class="copy_pinglun_btn" src="/static/copy_pinglun.png" mode="widthFix" @tap="pinglun"></image>
+				<image class="copy_share_btn" src="/static/copy_share.png" mode="widthFix" @tap="copy"></image>
 				<image src="/static/save_pic.png" mode="widthFix" @tap="savePic"></image>
 				<image src="/static/publish.png" mode="widthFix" @tap="publish"></image>
 			</view>

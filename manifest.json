@@ -1,9 +1,9 @@
 {
     "name" : "聚乐宝",
-    "appid" : "__UNI__AFDC750",
+    "appid" : "__UNI__40FB180",
     "description" : "",
-    "versionName" : "1.0.5",
-    "versionCode" : 105,
+    "versionName" : "1.0.7",
+    "versionCode" : 107,
     "transformPx" : false,
     /* 5+App特有相关 */
     "app-plus" : {
@@ -69,13 +69,13 @@
                     "weixin" : {
                         "appid" : "wx8580167a4dd6f37d",
                         "appsecret" : "eeb3bf2333e258e29be11bd9121242f2",
-                        "UniversalLinks" : ""
+                        "UniversalLinks" : "https://mazhuan.net/apple-app-site-association/"
                     }
                 },
                 "share" : {
                     "weixin" : {
                         "appid" : "wx8580167a4dd6f37d",
-                        "UniversalLinks" : ""
+                        "UniversalLinks" : "https://mazhuan.net/apple-app-site-association/"
                     }
                 },
                 "ad" : {},
@@ -147,7 +147,7 @@
                     "platforms" : "Android,iOS",
                     "url" : "https://ext.dcloud.net.cn/plugin?id=692",
                     "android_package_name" : "com.tjyz.jlb",
-                    "ios_bundle_id" : "com.jlb.app",
+                    "ios_bundle_id" : "com.yzjlb.app",
                     "isCloud" : true,
                     "bought" : 1,
                     "pid" : "692",

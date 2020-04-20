@@ -3,9 +3,9 @@
 		<view class="tuwen_detail">
 			<view class="mask" v-if="showMaskValue" @tap="close"><video :src="detailData['url']" controls></video></view>
 			<view class="copy_share">分享语</view>
-			<view class="tuwen_detail_title" v-html="detailData['comments']"></view>
-			<view class="copy_share">评论语</view>
 			<view class="tuwen_detail_title" v-html="detailData['esaDescribe1']"></view>
+			<view class="copy_share">评论语</view>
+			<view class="tuwen_detail_title" v-html="detailData['comments']"></view>
 			<view class="tuwen_detail_pic">
 				<view class="bg" mode="" @tap="play"><image src="/static/play.png" mode=""></image></view>
 			</view>
@@ -19,8 +19,8 @@
 			</view> -->
 
 			<view class="tuwen_detail_share_btn2">
-				<image class="copy_share_btn" src="/static/copy_share.png" mode="widthFix" @tap="copy"></image>
 				<image class="copy_pinglun_btn" src="/static/copy_pinglun.png" mode="widthFix" @tap="pinglun"></image>
+				<image class="copy_share_btn" src="/static/copy_share.png" mode="widthFix" @tap="copy"></image>
 				<image src="/static/save_video.png" mode="widthFix" @tap="saveVideo"></image>
 				<image src="/static/publish.png" mode="widthFix" @tap="publish"></image>
 			</view>
@@ -177,7 +177,7 @@ export default {
 		},
 		// 复制
 		copy() {
-			let copyData = this.detailData.comments;
+			let copyData = this.detailData.esaDescribe1;
 			// #ifdef APP-PLUS
 			uni.setClipboardData({
 				data: this.strFormat(copyData),
@@ -193,8 +193,8 @@ export default {
 			});
 			// #endif
 		},
-		pinglun(){
-			let copyData = this.detailData.esaDescribe1;
+		pinglun() {
+			let copyData = this.detailData.comments;
 			// #ifdef APP-PLUS
 			uni.setClipboardData({
 				data: this.strFormat(copyData),
@@ -303,11 +303,11 @@ export default {
 			// #endif
 		},
 		// 发布教程
-		publish(){
+		publish() {
 			uni.navigateTo({
-				url:'/pages/help/getDetail/getDetail',
-				animationType:'slide-in-left'
-			})
+				url: '/pages/help/getDetail/getDetail',
+				animationType: 'slide-in-left'
+			});
 		},
 		// 任务审核上传图片
 		upload() {

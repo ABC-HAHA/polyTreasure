@@ -2,9 +2,9 @@
 	<div>
 		<view class="tuwen_detail">
 			<view class="copy_share">分享语</view>
-			<view class="tuwen_detail_title" @tap="goHeadAd(detailData['url'])" v-html="detailData['comments']"></view>
-			<view class="copy_share">评论语</view>
 			<view class="tuwen_detail_title" @tap="goHeadAd(detailData['url'])" v-html="detailData['esaDescribe1']"></view>
+			<view class="copy_share">评论语</view>
+			<view class="tuwen_detail_title" @tap="goHeadAd(detailData['url'])" v-html="detailData['comments']"></view>
 			<view v-if="detailData['esaLinkInfoList']" @click="openBrowser(detailData['url'])" class="tuwen_detail_pic">
 				<image :src="detailData['esaPicUrl']" mode=""></image>
 				<view class="tuwen_detail_pic_content">{{ detailData['esaDescribe2'] }}</view>
@@ -16,8 +16,8 @@
 			</view> -->
 
 			<view class="tuwen_detail_share_btn2">
-				<image class="copy_share_btn" src="/static/copy_share.png" mode="widthFix" @tap="copy"></image>
 				<image class="copy_pinglun_btn" src="/static/copy_pinglun.png" mode="widthFix" @tap="pinglun"></image>
+				<image class="copy_share_btn" src="/static/copy_share.png" mode="widthFix" @tap="copy"></image>
 				<!-- <image src="/static/save_pic.png" mode="widthFix" @tap="savePic"></image> -->
 				<image src="/static/publish.png" mode="widthFix" @tap="publish"></image>
 			</view>
@@ -217,7 +217,7 @@ export default {
 		},
 		// 复制分享语
 		copy() {
-			let copyData = this.detailData.comments;
+			let copyData = this.detailData.esaDescribe1;
 			// #ifdef APP-PLUS
 			uni.setClipboardData({
 				data: this.strFormat(copyData),
@@ -234,7 +234,7 @@ export default {
 			// #endif
 		},
 		pinglun(){
-			let copyData = this.detailData.esaDescribe1;
+			let copyData = this.detailData.comments;
 			// #ifdef APP-PLUS
 			uni.setClipboardData({
 				data: this.strFormat(copyData),
